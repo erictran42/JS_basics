@@ -1,0 +1,38 @@
+.display {
+    height: 50px;
+    border: solid black 3px;
+    font-size: 40px;
+    display: flex;
+    margin: 20px;
+}
+
+.num1, .num2, .operatorDisplay {
+    flex: 2 1 0;
+    text-align: center;
+}
+
+.operatorDisplay {
+    flex: 1 1 0;
+}
+
+.numpad, .operations {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.digit, .action {
+    flex: auto;
+}
+
+.digit {
+    height: 40px;
+    width: 40px;
+    flex: auto;
+}
+
+.action {
+    height: 50px;
+    width: 80px;
+
+}
